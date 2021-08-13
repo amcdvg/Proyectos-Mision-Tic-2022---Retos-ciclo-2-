@@ -33,7 +33,7 @@ public class LiderDao {
             lider.setNombre(resultados.getString("Nombre"));
             lider.setPrimer_Apellido(resultados.getString("Primer_Apellido"));
             lider.setSegundo_Apellido(resultados.getString("Segundo_Apellido"));
-            lider.setSalario(resultados.getInt("Salario"));
+            lider.setSalario(resultados.getFloat("Salario"));
             lista.add(lider);
         }
         return lista;

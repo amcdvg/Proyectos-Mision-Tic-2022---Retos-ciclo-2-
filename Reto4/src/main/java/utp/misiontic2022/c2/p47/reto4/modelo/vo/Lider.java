@@ -5,7 +5,7 @@ public class Lider {
     private String Nombre;
     private String Primer_Apellido;
     private String Segundo_Apellido;
-    private Integer Salario;
+    private Float Salario;
 
     public Lider(){
 
@@ -32,10 +32,10 @@ public class Lider {
     public void setSegundo_Apellido(String segundo_Apellido) {
         Segundo_Apellido = segundo_Apellido;
     }
-    public Integer getSalario() {
+    public float getSalario() {
         return Salario;
     }
-    public void setSalario(Integer salario) {
+    public void setSalario(float salario) {
         Salario = salario;
     }
 
