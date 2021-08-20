@@ -10,8 +10,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
-import java.text.DecimalFormat;
-import java.text.DecimalFormatSymbols;
+//import java.text.DecimalFormat;
+//import java.text.DecimalFormatSymbols;
 
 
 // Util (No modificar)
@@ -48,7 +48,7 @@ public class vistaRequerimientosReto4 {
         } catch (Exception e) {
             System.err.println(e);
         }
-    }
+    //}
 
    public static void requerimiento2(){
     System.out.println("Transformar y obtener el nombre de los lideres donde la primera letra sea en minúscula y las demás en mayúscula");
